@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginButton {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#registerButton {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  border: 0.5px solid;
+  padding: 50px;
+}
+
+#loginEmail {
+  margin-bottom: 20px;
+}
+
+#loginClick {
+  margin-top: 20px;
+}
+
+#register {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#registerEmail {
+  margin-bottom: 20px;
+}
+
+#registerPassword {
+  margin-bottom: 20px;
+}
+
+#loginErrMsg,
+#registerErrMsg {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 10px;
+  color: red;
+  background: yellow;
+}
